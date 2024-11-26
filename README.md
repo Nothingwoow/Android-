@@ -61,7 +61,7 @@
 
 ## 五、功能实现
 
-### 1.**显示时间戳**
+### **1.显示时间戳**
 #### 在Oncreate()方法中
 ```java
 Cursor cursor = managedQuery(
@@ -88,7 +88,7 @@ Cursor cursor = managedQuery(
         setListAdapter(adapter);
 ```
 
-### 2. **背景颜色设置，使用 SharedPreferences 实现背景颜色的保存和恢复**
+### **2.背景颜色设置，使用 SharedPreferences 实现背景颜色的保存和恢复**
 
 #### 保存背景颜色：
 ```java
@@ -108,13 +108,13 @@ private void restoreBackgroundColor() {
     getWindow().getDecorView().setBackgroundColor(color);
 }
 ```
-### 3. **广播机制**
+### **3.广播机制**
 #### 发送广播：在笔记保存、删除或取消时发送自定义广播，通知列表更新：
 ```java
 Intent intent = new Intent("com.example.notes.UPDATE_LIST");
 sendBroadcast(intent);
 ```
-### 4. **搜索实现**
+### **4.搜索实现**
 搜索框的实现主要通过对 ListView 的数据进行过滤来完成。ListView 中的适配器会根据用户输入的关键词，动态过滤出符合条件的笔记项。
 #### 在 onCreate() 方法中设置监听器：
 ```java
@@ -150,7 +150,7 @@ private void filterNotes(String query) {
     adapter.changeCursor(cursor);  // 更新 ListView 的适配器数据
 }
 ```
-### 5. 排序笔记
+### **5排序笔记**
 
 笔记可以通过标题进行排序。点击菜单项 **排序** 按钮后，笔记会按照升序或降序排列。排序的实现依赖于 `Cursor` 查询的排序条件。
 #### 排序方法
