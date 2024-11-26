@@ -13,7 +13,7 @@
         android:showAsAction="ifRoom|withText" />
 
     <item android:id="@+id/sort_by_title"
-        android:title=""
+        android:title="根据标题排序"
         android:icon="@android:drawable/ic_menu_sort_alphabetically"
         android:showAsAction="always" />
 
