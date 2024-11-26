@@ -78,9 +78,9 @@ Cursor cursor = managedQuery(
 
         SimpleCursorAdapter adapter
             = new SimpleCursorAdapter(
-                      this,                             // The Context for the ListView
-                      R.layout.noteslist_item,          // Points to the XML for a list item
-                      cursor,                           // The cursor to get items from
+                      this,                            
+                      R.layout.noteslist_item,          
+                      cursor,                           
                       dataColumns,
                       viewIDs
               );
