@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 添加创建笔记的菜单项 -->
+    <item android:id="@+id/menu_add"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_add"
+          android:alphabeticShortcut='a'
+          android:showAsAction="always" />
+
+    <item android:id="@+id/change_bg_color"
+          android:title="更改背景"
+          android:icon="@drawable/ic_menu_edit"
+        android:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/sort_by_title"
+        android:title=""
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:showAsAction="always" />
+
+    <!-- 添加粘贴的菜单项 -->
+    <item android:id="@+id/menu_paste"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_paste"
+          android:alphabeticShortcut='p' />
+</menu>

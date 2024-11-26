@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/ic_menu_save"
+          android:alphabeticShortcut='s'
+          android:title="@string/menu_save"
+          android:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/menu_revert"
+          android:title="@string/menu_revert"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/ic_menu_delete"
+          android:title="@string/menu_delete"
+          android:showAsAction="ifRoom|withText" />
+
+    <!-- 添加一个更改笔记背景颜色的菜单项 -->
+    <item android:id="@+id/menu_change_note_bg_color"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="更改笔记背景颜色"
+        android:showAsAction="ifRoom|withText" />
+
+</menu>

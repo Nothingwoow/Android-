@@ -1,0 +1,7 @@
+#Tue Nov 26 11:01:57 CST 2024
+base.0=D\:\\Project\\AndroidStudioProjects\\NotePad_new-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Project\\AndroidStudioProjects\\NotePad_new-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
