@@ -7,6 +7,7 @@
 ## 扩展功能
 - **更改记事本背景**
 - **按照笔记标题排序**
+- **笔记左侧显示图片（美化）**
 
 ---
 
@@ -55,6 +56,9 @@
 ![img3_4](app/src/main/java/com/example/android/notepad/img_readme/img3_4.png)
 
 ### • **按照笔记标题排序**
+![img4](app/src/main/java/com/example/android/notepad/img_readme/img4.png)
+
+### • **笔记左侧显示图片**
 ![img4](app/src/main/java/com/example/android/notepad/img_readme/img4.png)
 
 ---
